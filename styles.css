@@ -1,0 +1,54 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color:black;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20px;
+
+}
+nav:hover{
+    cursor:pointer;
+    transition:1s;
+    font-size:50px;
+}
+i{
+    font-size: 30px;
+    margin-right:40px;
+}
+.iphone{
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+.iphone img{
+    width: 100%;
+    height: auto;
+}
+.iphone img:hover{
+    cursor:pointer;
+}
+.products{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+button{
+    background-color: #FF9F00;
+    padding:10px;
+    border:none;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+    font-size: 15px;
+}
+button:hover{
+    cursor:pointer;
+    transition:1s;
+    background-color:#FF4F00;
+    padding:15px;
+    font-size:17px;
+}
